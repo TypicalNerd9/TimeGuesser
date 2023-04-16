@@ -23,16 +23,4 @@ struct FTimePeriodStruct : public FTableRowBase {
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FString LevelName;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int PerfectPointsBounds;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int HighPointsBounds;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int MediumPointsBounds;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int LowPointsBounds;
 };

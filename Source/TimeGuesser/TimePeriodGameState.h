@@ -15,12 +15,12 @@ class TIMEGUESSER_API ATimePeriodGameState : public AGameStateBase
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 		FTimerHandle RoundTimer;
 
 	UFUNCTION(BlueprintCallable)
 		void StartRound();
 
-	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
-		void EndRound(bool Won, int Guess);
+	UFUNCTION(BlueprintCallable)
+		void EndRound(bool Won);
 };
