@@ -13,6 +13,11 @@ class ATimeGuesserGameMode : public AGameModeBase
 
 public:
 	ATimeGuesserGameMode();
+
+	virtual void BeginPlay() override;
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+		void EndGame(bool Won);
 };
 
 
