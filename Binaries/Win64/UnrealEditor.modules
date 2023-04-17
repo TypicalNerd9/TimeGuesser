@@ -2,6 +2,6 @@
 	"BuildId": "23058290",
 	"Modules": 
 	{
-		"TimeGuesser": "UnrealEditor-TimeGuesser-7985.dll"
+		"TimeGuesser": "UnrealEditor-TimeGuesser.dll"
 	}
 }
